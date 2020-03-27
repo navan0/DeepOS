@@ -1,0 +1,13 @@
+[package]
+name = "DeepOS"
+version = "0.1.0"
+authors = ["navan0 <nktclt@gmail.com>"]
+edition = "2018"
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
